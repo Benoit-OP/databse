@@ -1,0 +1,21 @@
+
+table,th, td { border: 1px solid grey;}
+table{border-collapse:collapse;}
+/* Centrage tableau */
+table.tableau{ margin:auto;}
+
+table.tableau td{text-align:center;}
+
+table#tableau tr:first-child{
+	background:LightPink;
+}
+table#tableau tr:nth-child(2n){
+	background:#EFD3C9;
+}
+table#tableau tr:nth-child(2n+3){
+	background:#BCBCD0;
+}
+
+table tr:only-child{
+	background:red;
+}
